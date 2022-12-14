@@ -1,8 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+
+:root {
+  --softwhite: #fbfaf5;
+  --lightpink: #d4b9be;
+  --mauve: #9c7067;
+  --skyblue: #b2c5d9;
+  --lightgreen: #d4df9e;
+  --mediumgreen: #5f6d57;
+  --darkgreen: #24361b;
+  --darkpurple: #331e38;
+  --smokeyblack: #12100e;
+
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Playfair Display';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +24,83 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.Page-Content {
+  height: 90vh;
+}
+
+/* NavBar FORMATTING */
+
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  height: 10vh;
+  width: 100vw;
+  justify-content: space-evenly;
+  background-color: var(--softwhite);
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.NavLinksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.NavLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+/* LINK FORMATTING */
+
+a.button {
+  background-color: var(--skyblue);
+  color: var(--darkgreen);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: 'Playfair Display';
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+/* a:hover {
+  text-decoration: underline;
+} */
+
+a:active {
+  text-decoration: underline;
+}
+
+/* HOME PAGE FORMATTING */
+
+.Home-cover-image-container {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("./Images/bumblebeewalk.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  background-position: 20% 30%;
 }
