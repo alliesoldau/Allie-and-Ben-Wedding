@@ -1,5 +1,5 @@
 import React from "react";
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 
 function NavBar() {
 
@@ -24,7 +24,7 @@ function NavBar() {
                         <NavLink className="button" exact to="/registry">
                             Registry
                         </NavLink>
-                        <NavLink className="button" exact to="/RSVP">
+                        <NavLink className="RSVPbutton" exact to="/RSVP">
                             RSVP
                         </NavLink>
                     </div>

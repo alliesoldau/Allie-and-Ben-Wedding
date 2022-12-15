@@ -79,6 +79,17 @@ a.button {
   font-size: 1.2em;
 }
 
+.RSVPbutton {
+  color: var(--mediumgreen);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  font-family: 'Calistoga';
+  font-weight: 800;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
 a:link {
   text-decoration: none;
 }
@@ -118,6 +129,6 @@ a:active {
 }
 
 iframe {
-  height: 80vh;
+  height: 90vh;
   width: 100vw;
 }
