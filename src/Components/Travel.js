@@ -3,7 +3,7 @@ import React from "react";
 function Travel() {
 
     return (
-        <p>Travel</p>
+        <p>must get here by foot</p>
     )
 }
 

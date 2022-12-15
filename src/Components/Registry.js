@@ -3,7 +3,7 @@ import React from "react";
 function Registry() {
 
     return (
-        <p>Registry</p>
+        <p>your smiling face</p>
     )
 }
 

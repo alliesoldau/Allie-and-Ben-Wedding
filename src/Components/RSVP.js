@@ -1,10 +1,13 @@
 import React from "react";
+import Form from "./Form"
 
 
 function RSVP() {
 
     return (
-        <p>RSVP</p>
+        <div>
+            <Form />
+        </div>
     )
 }
 

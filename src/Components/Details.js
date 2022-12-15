@@ -4,7 +4,7 @@ import React from "react";
 function Details() {
 
     return (
-        <p>Details</p>
+        <p>fuck even we don't know</p>
     )
 }
 

@@ -5,7 +5,11 @@ function Home() {
 
     return (
         <div>
-            <div className="Home-cover-image-container"></div>
+            <div className="Home-cover-image-container">
+                <div className="Were-getting-married">
+                    We're getting married!
+                </div>
+            </div>
         </div>
     )
 }

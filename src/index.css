@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Calistoga');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+
 
 
 :root {
@@ -10,9 +13,7 @@
   --mediumgreen: #5f6d57;
   --darkgreen: #24361b;
   --darkpurple: #331e38;
-  
   --smokeyblack: #12100e;
-
 }
 
 body {
@@ -63,18 +64,17 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 10px;
+  margin: 5px;
 }
 
 /* LINK FORMATTING */
 
 a.button {
-  background-color: var(--skyblue);
   color: var(--darkgreen);
   margin: 10px;
   padding: 10px;
   border-radius: 2px;
-  font-family: 'Playfair Display';
+  font-family: 'Calistoga';
   font-weight: 800;
   font-size: 1.2em;
 }
@@ -87,9 +87,9 @@ a:visited {
   text-decoration: none;
 }
 
-/* a:hover {
-  text-decoration: underline;
-} */
+a:hover {
+  background-color: var(--skyblue);
+}
 
 a:active {
   text-decoration: underline;
@@ -104,4 +104,20 @@ a:active {
   background-size: cover;
   overflow: hidden;
   background-position: 20% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.Were-getting-married {
+  color: var(--softwhite);
+  font-family: 'Dancing Script';
+  font-size: 6em;
+  margin: 20px;
+  text-shadow: 2px 1px 2px var(--mauve);
+}
+
+iframe {
+  height: 80vh;
+  width: 100vw;
 }
