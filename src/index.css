@@ -94,19 +94,19 @@ a.button {
   font-style: italic;
 }
 
-a:link {
+.NavLinks a:link {
   text-decoration: none;
 }
 
-a:visited {
+.NavLinks a:visited {
   text-decoration: none;
 }
 
-a:hover {
+.NavLinks a:hover {
   background-color: var(--skyblue);
 }
 
-a:active {
+.NavLinks a:active {
   text-decoration: underline;
 }
 
@@ -159,48 +159,111 @@ iframe {
   width: 100vw;
 }
 
+/* DETAILS INFORMATION */
+
 .Details {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 90vh;
 }
 
-.June-Farms-Logo {
-  background-image: url("./Images/junefarmslogo.png"); 
-  width: auto;
-  height: 300px;
-  background-repeat: no-repeat;
-  /* alt="June Farms Logo" */
+.Details-Content {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
 }
 
-.Cows {
-  background-image: url("./Images/cow.jpeg"); 
-  width: auto;
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
+/* DETAILS NAV */
+.Details-Nav-Bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--lightpink);
+  width: 20vw;
 }
 
-.Pony-Barn {
-  background-image: url("./Images/ponybarn.jpeg"); 
-  width: auto;
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.Details-Nav-Links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
 }
 
-.Drinks {
-  background-image: url("./Images/drinks.jpeg"); 
-  width: auto;
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.Details-Nav-Links a:link {
+  text-decoration: none;
+  font-family: 'Satisfy';
+  color: var(--smokeyblack)
 }
 
-.Outdoor-Drinks {
-  background-image: url("./Images/outdoordrinks.jpeg"); 
-  width: auto;
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
+.Details-Nav-Links a:visited {
+  text-decoration: none;
 }
+
+.Details-Nav-Links a:hover {
+  background-color: var(--softwhite);
+}
+
+.Details-Nav-Links a:active {
+  text-decoration: underline;
+}
+
+/* DETAILS VENUE */
+
+.Details-Venue {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+/* .June-Farms-Logo {
+  placeholder
+} */
+
+.June-Farms-Logo img {
+  content: url("./Images/junefarmslogo.png");
+  height: 200px;
+}
+
+/* .Cows {
+  placeholder
+} */
+
+.Cows img {
+  content: url("./Images/cow.jpeg"); 
+  height: 400px;
+}
+
+/* .Pony-Barn {
+  placeholder
+} */
+
+.Pony-Barn img {
+  content: url("./Images/ponybarn.jpeg"); 
+  height: 400px
+}
+
+/* DETAILS FOOD DRINK */
+
+.Details-Food-Drink {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.Drinks img{
+  content: url("./Images/drinks.jpeg"); 
+  height: 400px
+}
+
+/* .Drinks {
+  placeholder
+} */
+
+.Outdoor-Drinks img {
+  content: url("./Images/outdoordrinks.jpeg"); 
+  height: 400px
+}
+
+/* .Outdoor-Drinks {
+  placeholder
+} */
+
