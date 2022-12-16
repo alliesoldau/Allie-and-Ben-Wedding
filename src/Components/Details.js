@@ -15,8 +15,8 @@ function Details() {
                 <DetailsNav />
                 <div className="Details-Content">
                     <Switch >
-                        <Route exact path="/details/home">
-                            <DetailsHome />
+                        <Route exact path="/details/overview">
+                            <DetailsOverview />
                         </Route>
                         <Route path="/details/venue">
                             <DetailsVenue />
