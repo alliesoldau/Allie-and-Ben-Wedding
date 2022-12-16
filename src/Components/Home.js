@@ -1,5 +1,4 @@
 import React from "react";
-// import bumblebeewalk from "../Images/bumblebeewalk.jpeg"
 
 function Home() {
 
