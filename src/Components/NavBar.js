@@ -12,8 +12,8 @@ function NavBar() {
                         <NavLink className="button" exact to="/">
                             Home
                         </NavLink>
-                        <NavLink className="button" exact to="/details">
-                            Details
+                        <NavLink className="button" exact to="/details/overview">
+                            Overview
                         </NavLink>
                         <NavLink className="button" exact to="/travel">
                             Travel
