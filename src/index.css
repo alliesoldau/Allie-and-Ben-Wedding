@@ -159,6 +159,12 @@ iframe {
   width: 100vw;
 }
 
+.Details {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+}
+
 .June-Farms-Logo {
   background-image: url("./Images/junefarmslogo.png"); 
   width: auto;
@@ -173,5 +179,28 @@ iframe {
   height: 200px;
   background-size: contain;
   background-repeat: no-repeat;
-  /* alt="June Farms Logo" */
+}
+
+.Pony-Barn {
+  background-image: url("./Images/ponybarn.jpeg"); 
+  width: auto;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Drinks {
+  background-image: url("./Images/drinks.jpeg"); 
+  width: auto;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Outdoor-Drinks {
+  background-image: url("./Images/outdoordrinks.jpeg"); 
+  width: auto;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
