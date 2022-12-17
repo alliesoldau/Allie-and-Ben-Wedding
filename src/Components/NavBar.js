@@ -9,22 +9,22 @@ function NavBar() {
             <nav className="nav">
             <div className="NavLinksContainer">
                     <div className="NavLinks" >
-                        <NavLink className="button" exact to="/">
+                        <NavLink className="button" activeStyle={{"text-decoration": "underline"}} exact to="/">
                             Home
                         </NavLink>
-                        <NavLink className="button" exact to="/details/overview">
+                        <NavLink className="button" activeStyle={{"text-decoration": "underline"}} exact to="/details/overview">
                             Details
                         </NavLink>
-                        <NavLink className="button" exact to="/travel">
+                        <NavLink className="button" activeStyle={{"text-decoration": "underline"}} exact to="/travel">
                             Travel
                         </NavLink>
-                        <NavLink className="button" exact to="/accommodations">
+                        <NavLink className="button" activeStyle={{"text-decoration": "underline"}} exact to="/accommodations">
                             Accommodations
                         </NavLink>
-                        <NavLink className="button" exact to="/registry">
+                        <NavLink className="button" activeStyle={{"text-decoration": "underline"}} exact to="/registry">
                             Registry
                         </NavLink>
-                        <NavLink className="RSVPbutton" exact to="/RSVP">
+                        <NavLink className="RSVPbutton" activeStyle={{"text-decoration": "underline"}} exact to="/RSVP">
                             RSVP
                         </NavLink>
                     </div>

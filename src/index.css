@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
 @import url('https://fonts.googleapis.com/css?family=Piazzolla');
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
-
-
+@import url('https://fonts.googleapis.com/css?family=Kumbh+Sans');
 
 :root {
   --softwhite: #fbfaf5;
@@ -177,7 +175,9 @@ iframe {
   background-position: 60% 30%;
   width: 200px;
   font-size: .75em;
-}.NavBar a.button {
+}
+
+.NavBar a.button {
   color: var(--darkgreen);
   margin: 10px;
   padding: 10px;
@@ -195,7 +195,8 @@ iframe {
 .Details-Nav-Links a:link {
   text-decoration: none;
   font-family: 'Piazzolla';
-  color: var(--smokeyblack)
+  color: var(--smokeyblack);
+  border-radius: 20px;
 }
 
 .Details-Nav-Links a:visited {
@@ -246,7 +247,7 @@ iframe {
 }
 
 .Details-Venue-Text {
-  font-family: "Source Sans Pro";
+  font-family: "Kumbh Sans";
   font-size: 1em;
   display: flex;
   justify-content: space-between;

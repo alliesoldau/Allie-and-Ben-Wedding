@@ -9,16 +9,16 @@ function DetailsNav() {
             <nav className="nav">
             <div className="Details-Nav-Links-Container">
                     <div className="Details-Nav-Links" >
-                        <NavLink className="button" exact to="/details/overview">
+                        <NavLink className="button" activeStyle={{"background-color": "#fbfaf5"}} exact to="/details/overview">
                             OVERVIEW
                         </NavLink>
-                        <NavLink className="button" exact to="/details/venue">
+                        <NavLink className="button" activeStyle={{"background-color": "#fbfaf5"}} exact to="/details/venue">
                             VENU
                         </NavLink>
-                        <NavLink className="button" exact to="/details/dresscode">
+                        <NavLink className="button" activeStyle={{"background-color": "#fbfaf5"}} exact to="/details/dresscode">
                             DRESSCODE
                         </NavLink>
-                        <NavLink className="button" exact to="/details/fooddrink">
+                        <NavLink className="button" activeStyle={{"background-color": "#fbfaf5"}} exact to="/details/fooddrink">
                             FOOD & DRINK
                         </NavLink>
                     </div>
