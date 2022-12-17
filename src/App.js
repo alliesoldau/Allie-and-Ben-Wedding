@@ -40,3 +40,10 @@ function App() {
 }
 
 export default App;
+
+// Specail thanks:
+// Nicholas Nip for helping me make the Favicon of the bumblebee
+// Kris LaRosa for retouching the main picture of Ben and I so that the shed behind my head isnt visible
+// Katie Soldau for helping me with flex boxes
+// Terence Nip for explaining iFrame to me
+// Gehrig Barnes for his endless support (technical and otherwise) while I learned React

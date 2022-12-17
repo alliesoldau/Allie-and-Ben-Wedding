@@ -199,7 +199,7 @@ iframe {
 }
 
 .Details-Nav-Links a:hover {
-  background-color: var(--softwhite);
+  text-decoration: underline var(--softwhite);
 }
 
 .Details-Nav-Links a:active {
@@ -210,36 +210,66 @@ iframe {
 
 .Details-Venue {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
+  justify-content: flex-end;
+}
+/* .Details-Venue img{
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+} */
+
+.Details-Venue-Images-Row1 {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--softwhite);
+  justify-content: space-evenly;
+  overflow: hidden;
+  height: 40vh;
 }
 
-/* .June-Farms-Logo {
-  placeholder
-} */
+.Details-Venue-Images-Row1 img {
+  height: 40vh;
+  object-fit: contain;
+}
+
+
+.Venue-Details {
+  display: flex;
+  flex-direction: row;
+  height: 50vh;
+  background-color: var(--softwhite)
+}
+
+.June-Farms-Logo {
+  display: block;
+  justify-content: top;
+  margin: 20px;
+}
 
 .June-Farms-Logo img {
   content: url("./Images/junefarmslogo.png");
-  height: 200px;
+  height: 100px;
 }
-
-/* .Cows {
-  placeholder
-} */
 
 .Cows img {
   content: url("./Images/cow.jpeg"); 
-  height: 400px;
 }
-
-/* .Pony-Barn {
-  placeholder
-} */
 
 .Pony-Barn img {
   content: url("./Images/ponybarn.jpeg"); 
-  height: 400px
 }
+
+.Barn-and-Truck img {
+  content: url("./Images/barnandtruck.jpeg"); 
+}
+
+.Tractor img {
+  content: url("./Images/tractor.jpeg"); 
+}
+
+
 
 /* DETAILS FOOD DRINK */
 
@@ -251,7 +281,6 @@ iframe {
 
 .Drinks img{
   content: url("./Images/drinks.jpeg"); 
-  height: 400px
 }
 
 /* .Drinks {
@@ -260,10 +289,8 @@ iframe {
 
 .Outdoor-Drinks img {
   content: url("./Images/outdoordrinks.jpeg"); 
-  height: 400px
 }
 
 /* .Outdoor-Drinks {
   placeholder
 } */
-
