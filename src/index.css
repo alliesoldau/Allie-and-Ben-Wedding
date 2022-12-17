@@ -214,11 +214,6 @@ iframe {
   width: 100%;
   justify-content: flex-end;
 }
-/* .Details-Venue img{
-  display: flex;
-  flex-direction: column;
-  height: 40vh;
-} */
 
 .Details-Venue-Images-Row1 {
   display: flex;
@@ -234,12 +229,25 @@ iframe {
   object-fit: contain;
 }
 
-
 .Venue-Details {
   display: flex;
   flex-direction: row;
   height: 50vh;
-  background-color: var(--softwhite)
+  background-color: var(--softwhite);
+}
+
+.Details-Venue-Text {
+  font-family: "Source Sans Pro";
+  font-size: 1em;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: left;
+  margin: 20px;
+}
+
+.Details-Venue-Text p {
+  margin: 5px;
 }
 
 .June-Farms-Logo {
