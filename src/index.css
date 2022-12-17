@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
-@import url('https://fonts.googleapis.com/css?family=Calistoga');
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 @import url('https://fonts.googleapis.com/css?family=La+Belle+Aurore');
-@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Piazzolla');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 
 
 
@@ -27,11 +27,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App {
   display: flex;
   flex-direction: column;
@@ -50,6 +45,7 @@ code {
   width: 100vw;
   justify-content: space-evenly;
   background-color: var(--softwhite);
+  font-family: 'Piazzolla';
 }
 
 .nav {
@@ -68,7 +64,7 @@ code {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin: 5px;
+  /* margin: 5px; */
 }
 
 /* LINK FORMATTING */
@@ -78,7 +74,6 @@ a.button {
   margin: 10px;
   padding: 10px;
   border-radius: 2px;
-  font-family: 'Calistoga';
   font-weight: 800;
   font-size: 1.2em;
 }
@@ -126,7 +121,7 @@ a.button {
 
 .Were-getting-married {
   color: var(--softwhite);
-  font-family: 'Dancing Script';
+  font-family: 'Alex Brush';
   font-size: 6em;
   margin: 20px;
   text-shadow: 2px 1px 2px var(--mauve);
@@ -148,7 +143,7 @@ a.button {
 .Wedding-deets p {
   text-align: left;
   color: var(--darkgreen);
-  font-family: 'Satisfy';
+  font-family: 'Piazzolla';
   font-size: 1.5em;
   margin: 0px;
   font-weight: bold;
@@ -170,7 +165,7 @@ iframe {
 .Details-Content {
   display: flex;
   flex-direction: row;
-  width: 80vw;
+  width: 85vw;
 }
 
 /* DETAILS NAV */
@@ -178,8 +173,17 @@ iframe {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--lightpink);
-  width: 20vw;
+  background-image: url('./Images/tornpinkpaper.jpg');
+  background-position: 60% 30%;
+  width: 200px;
+  font-size: .75em;
+}.NavBar a.button {
+  color: var(--darkgreen);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  font-weight: 800;
+  font-size: 1.2em;
 }
 
 .Details-Nav-Links {
@@ -190,7 +194,7 @@ iframe {
 
 .Details-Nav-Links a:link {
   text-decoration: none;
-  font-family: 'Satisfy';
+  font-family: 'Piazzolla';
   color: var(--smokeyblack)
 }
 
@@ -222,6 +226,9 @@ iframe {
   justify-content: space-evenly;
   overflow: hidden;
   height: 40vh;
+  border: 4px solid var(--lightpink);
+  border-top: 2px solid var(--lightpink);
+
 }
 
 .Details-Venue-Images-Row1 img {
@@ -233,6 +240,8 @@ iframe {
   display: flex;
   flex-direction: row;
   height: 50vh;
+  border: 4px solid var(--lightpink);
+  border-bottom: 2px solid var(--lightpink);
   background-color: var(--softwhite);
 }
 

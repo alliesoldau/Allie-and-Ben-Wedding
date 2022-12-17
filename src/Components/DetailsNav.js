@@ -10,16 +10,16 @@ function DetailsNav() {
             <div className="Details-Nav-Links-Container">
                     <div className="Details-Nav-Links" >
                         <NavLink className="button" exact to="/details/overview">
-                            Overview
+                            OVERVIEW
                         </NavLink>
                         <NavLink className="button" exact to="/details/venue">
-                            Venu
+                            VENU
                         </NavLink>
                         <NavLink className="button" exact to="/details/dresscode">
-                            Dresscode
+                            DRESSCODE
                         </NavLink>
                         <NavLink className="button" exact to="/details/fooddrink">
-                            Food & Drink
+                            FOOD & DRINK
                         </NavLink>
                     </div>
                 </div>
