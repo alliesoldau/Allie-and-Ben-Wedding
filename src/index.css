@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Piazzolla');
 @import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 @import url('https://fonts.googleapis.com/css?family=Kumbh+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 
 :root {
   --softwhite: #fbfaf5;
@@ -20,7 +22,7 @@
 
 body {
   margin: 0;
-  font-family: 'Playfair Display';
+  font-family: 'Raleway';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -211,6 +213,28 @@ iframe {
   text-decoration: underline;
 }
 
+/* DETAILS OVERVIEW */
+
+.Details-Overview{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--softwhite);
+  border: solid 5px var(--lightpink);
+  padding: 10px;
+  color: var(--darkgreen);
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.Details-Overview-Header {
+  /* background-color: var(--skyblue); */
+  color: var(--smokeyblack);
+  text-shadow: 1px 1px 1px var(--skyblue);
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
 /* DETAILS VENUE */
 
 .Details-Venue {
@@ -247,7 +271,7 @@ iframe {
 }
 
 .Details-Venue-Text {
-  font-family: "Kumbh Sans";
+  font-family: "Raleway";
   font-size: 1em;
   display: flex;
   justify-content: space-between;
@@ -287,7 +311,43 @@ iframe {
   content: url("./Images/tractor.jpeg"); 
 }
 
+/* DETAILS DRESS CODE */
+.Details-Dress-Code {
+  background-color: VAR(--softwhite);
+  padding: 10px;
+  color: var(--darkgreen);
+  border: solid 5px var(--lightpink);
+  display: flex;
+  flex-direction: column;
+}
 
+.Dress-Code-Header {
+  color: var(--smokeyblack);
+  text-decoration: underline var(--skyblue);
+}
+
+.Dress-Code-Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Dress-Code-Row1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Dress-Code-Row1 h4, h5 {
+  margin: 10px;
+}
+
+.Dress-Code-Row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: .75em;
+}
 
 /* DETAILS FOOD DRINK */
 

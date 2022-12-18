@@ -21,6 +21,9 @@ function DetailsVenue() {
                     <p>Guests will be able to explore the farm and meet 
                         the animals if they so desire!
                     </p>
+                    <p>There is ample parking for cars on the property, and golf carts 
+                        to help transport people with limited mobility throughout 
+                        the duration of the wedding.</p>
                     <p>While the celebratory areas will be animal free, 
                         those with allergies should be advised that 
                         the farm animals are close by.
