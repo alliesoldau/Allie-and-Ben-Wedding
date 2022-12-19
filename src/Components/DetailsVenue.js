@@ -4,9 +4,6 @@ function DetailsVenue() {
     return(
         <div className="Details-Venue">
             <div className="Venue-Details">
-                {/* <div className="June-Farms-Logo">
-                    <img /> 
-                </div> */}
                 <div className="Details-Venue-Text">
                     <p>Our ceremony and reception will held at the beautiful <a href="https://junefarms.com/">June Farms</a>.</p>
                     <p>June Farms sits on 120 acres in the New York Hudson 
@@ -21,8 +18,7 @@ function DetailsVenue() {
                     <p>Guests will be able to explore the farm and meet 
                         the animals if they so desire!
                     </p>
-                    <p>There is ample parking for cars on the property, and golf carts 
-                        to help transport people with limited mobility throughout 
+                    <p>Golf carts will be available to help transport people with limited mobility throughout 
                         the duration of the wedding.</p>
                     <p>While the celebratory areas will be animal free, 
                         those with allergies should be advised that 

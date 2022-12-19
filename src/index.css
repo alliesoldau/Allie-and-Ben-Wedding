@@ -372,3 +372,43 @@ iframe {
 /* .Outdoor-Drinks {
   placeholder
 } */
+
+/* TRAVEL */
+
+.Travel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: var(--skyblue);
+}
+
+.Getting-to-the-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.Getting-to-the-area h2 {
+  margin-bottom: 0px;
+  color: var(--smokeyblack);
+}
+
+.Getting-to-the-area p {
+  margin-bottom: 0px;
+  color: var(--smokeyblack);
+}
+
+.Getting-to-the-venue {
+  display: flex;
+  flex-direction: column;
+}
+
+.Getting-to-the-venue h2 {
+  margin-bottom: 0px;  
+  color: var(--smokeyblack);
+}
+
+.Getting-to-the-venue p {
+  margin-bottom: 0px;  
+  color: var(--smokeyblack);
+}
