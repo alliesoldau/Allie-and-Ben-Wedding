@@ -227,7 +227,6 @@ iframe {
 }
 
 .Details-Overview-Header {
-  /* background-color: var(--skyblue); */
   color: var(--smokeyblack);
   text-shadow: 1px 1px 1px var(--skyblue);
   border-radius: 10px;
@@ -250,23 +249,21 @@ iframe {
   background-color: var(--softwhite);
   justify-content: space-evenly;
   overflow: hidden;
-  height: 40vh;
-  border: 4px solid var(--lightpink);
-  border-top: 2px solid var(--lightpink);
+  height: 45vh;
 
 }
 
 .Details-Venue-Images-Row1 img {
   height: 40vh;
   object-fit: contain;
+  border: 4px solid var(--lightpink);
 }
 
 .Venue-Details {
   display: flex;
   flex-direction: row;
-  height: 50vh;
-  border: 4px solid var(--lightpink);
-  border-bottom: 2px solid var(--lightpink);
+  height: 45vh;
+  border-top: 4px solid var(--lightpink);
   background-color: var(--softwhite);
 }
 
@@ -282,17 +279,6 @@ iframe {
 
 .Details-Venue-Text p {
   margin: 5px;
-}
-
-.June-Farms-Logo {
-  display: block;
-  justify-content: top;
-  margin: 20px;
-}
-
-.June-Farms-Logo img {
-  content: url("./Images/junefarmslogo.png");
-  height: 100px;
 }
 
 .Cows img {
@@ -355,23 +341,51 @@ iframe {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: 100%;
+  background-color: var(--softwhite);
+  justify-content: space-between;
+  border: solid 5px var(--lightpink);
+}
+
+.Drinks-Images, .Food-Images {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.Drinks-Images img, .Food-Images img {
+  width: 30vh;
+  border: solid 4px var(--lightgreen);
 }
 
 .Drinks img{
   content: url("./Images/drinks.jpeg"); 
 }
 
-/* .Drinks {
-  placeholder
-} */
-
 .Outdoor-Drinks img {
   content: url("./Images/outdoordrinks.jpeg"); 
 }
 
-/* .Outdoor-Drinks {
-  placeholder
-} */
+.Pizza img {
+  content: url("./Images/pizza.jpeg"); 
+}
+
+.Cookies img {
+  content: url("./Images/cookies.jpeg"); 
+}
+
+.Food-and-Drink-Details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--mediumgreen);
+}
+
+.Food-and-Drink-Details h1{
+  color: var(--smokeyblack);
+}
 
 /* TRAVEL */
 
@@ -380,7 +394,8 @@ iframe {
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
-  background-color: var(--skyblue);
+  background-color: var(--softwhite);
+  border-top: solid 5px var(--skyblue);
 }
 
 .Getting-to-the-area {
@@ -411,4 +426,26 @@ iframe {
 .Getting-to-the-venue p {
   margin-bottom: 0px;  
   color: var(--smokeyblack);
+}
+
+/* ACCOMODATIONS */
+
+.Accommodations {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: var(--softwhite);
+  border-top: solid 5px var(--mediumgreen);
+}
+
+/* ACCOMODATIONS */
+
+.Registry {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  background-color: var(--softwhite);
+  border-top: solid 5px var(--lightgreen);
 }

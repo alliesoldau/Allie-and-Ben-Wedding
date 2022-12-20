@@ -5,7 +5,7 @@ function DetailsVenue() {
         <div className="Details-Venue">
             <div className="Venue-Details">
                 <div className="Details-Venue-Text">
-                    <p>Our ceremony and reception will held at the beautiful <a href="https://junefarms.com/">June Farms</a>.</p>
+                    <h3>Our ceremony and reception will held at the beautiful <a href="https://junefarms.com/">June Farms</a>.</h3>
                     <p>June Farms sits on 120 acres in the New York Hudson 
                         Valley and is home to highland cows, goats, horses, 
                         ducks, chickens, pigs, and an adorable barn 
